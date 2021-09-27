@@ -4,6 +4,7 @@ This is a website with bootstrap 5
 
 Technologies used
 
+-font awesome
 -Bootstrap 5
-- html
+- html5
 - CSS3
