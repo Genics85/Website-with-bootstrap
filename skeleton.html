@@ -20,11 +20,16 @@
   <div class="container-fluid ">
     <a class="navbar-brand " href="#"><img src="bootstrap/img/logo.png" style="width:2em; height:2em;" " class="img-fluid pull-xs-left" alt="Logo"></a>
 
-    <button type="button" name="button" class="navbar-toggler " data-toggle="collapse" data-target="#navbarResponsive">
+    <button type="button" name="button" class="navbar-toggler " data-bs-toggle="collapse" data-bs-target="#navbarResponsive">
       <span class="navbar-toggler-icon "></span>
     </button>
     <div class="collapse navbar-collapse  " id="navbarResponsive">
       <ul class="navbar-nav  ">
+        <li class="nav-item"><a href="#Authors" class="nav-link">Authors</a></li>
+        <li class="nav-item"><a href="#Home" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#Fee" class="nav-link">Fee</a></li>
+        <li class="nav-item"><a href="#Hours" class="nav-link">Hours</a></li>
+
       </ul>
 
     </div>
@@ -34,20 +39,32 @@
 
 <!--carousel slider-->
 
-<div id="slides" class="carousel slide" data-ride="carousel">
+<div id="slides" class="carousel slide" data-bs-ride="carousel">
   <ul class="carousel-indicators">
-    <li data-target="#slides" data-slide-to="0" class="active"></li>
-    <li data-target="#slides" data-slide-to="1"></li>
-    <li data-target="#slides" data-slide-to="2"></li>
+    <li data-bs-target="#slides" data-bs-slide-to="0" class="active"></li>
+    <li data-bs-target="#slides" data-bs-slide-to="1"></li>
+    <li data-bs-target="#slides" data-bs-slide-to="2"></li>
   </ul>
 
   <div class="carousel-inner">
     <div class="carousel-item ">
       <img src="bootstrap/img/one.jpg" alt="">
+      <div class="carousel-caption">
+        <h1 class="display-1">GenCode</h1>
+        <h3> Complete website layout</h3>
+        <button type="button" class="btn btn-outline-light btn-lg"> View Demo </button>
+        <button type="button"class="btn btn-primary btn-lg">Get started </button>
+      </div>
 
     </div>
     <div class="carousel-item ">
       <img src="bootstrap/img/two.jpg" alt="">
+      <div class="carousel-caption">
+        <h1 class="display-1">GenCode</h1>
+        <h3> Complete website layout</h3>
+        <button type="button" class="btn btn-outline-light btn-lg"> View Demo </button>
+        <button type="button"class="btn btn-primary btn-lg">Get started </button>
+      </div>
     </div>
     <div class="carousel-item active ">
       <img src="bootstrap/img/three.jpg" alt="">
@@ -62,7 +79,7 @@
   <a class="carousel-control-prev" href="#slides" data-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </a>
-  <a class="carousel-control-next" href="#slides" data-slide="next">
+  <a class="carousel-control-next" href="#slides" data-bs-slide="next">
     <span class="carousel-control-next-icon"></span>
   </a>
 </div>
